@@ -208,7 +208,7 @@ span {
     align-items: center;
     /* background-color: black; */
 
-    background-image: url("/Images/back5.jpg");
+    background-image: url("Images/back5.jpg");
     background-repeat: no-repeat;
     /* background-color: #cccccc; */
     background-position: center;
@@ -321,7 +321,7 @@ span {
 #about {
     background: var(--bg-color-1);
     width: 100%;
-    background-image: url("/Images/back6.jpg");
+    background-image: url("Images/back6.jpg");
     background-repeat: no-repeat;
     /* background-color: #cccccc; */
     background-position: center;
@@ -393,7 +393,7 @@ span {
 /* <================= Services =================> */
 #services {
     background-color: var(--bg-color-2);
-    background-image: url("/Images/back11.jpg");
+    background-image: url("Images/back11.jpg");
     background-repeat: no-repeat;
     /* background-color: #cccccc; */
     background-position: center;
@@ -433,7 +433,7 @@ span {
 /* <================= Resume =================> */
 #resume {
     background-color: var(--bg-color-1);
-    background-image: url("/Images/back14.jpg");
+    background-image: url("Images/back14.jpg");
     background-repeat: no-repeat;
     /* background-color: #cccccc; */
     background-position: center;
@@ -566,7 +566,7 @@ span {
 #portfolio {
     padding: 100px 0;
     background-color: var(--bg-color-2);
-    background-image: url("/Images/back25.jpg");
+    background-image: url("Images/back25.jpg");
     background-repeat: no-repeat;
     /* background-color: #cccccc; */
     background-position: center;
@@ -751,90 +751,7 @@ span {
     background-color: var(--main-color) !important;
 }
 
-/* <================= Blog =================> */
-#blogs {
-    min-height: 100vh;
-    background-color: var(--bg-color-2);
-}
 
-#blogs .animate-bar::before {
-    border-color: var(--bg-color-2);
-}
-
-.blog {
-    width: 22rem;
-    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 25%);
-    margin: 10px;
-    padding: 10px;
-    background-color: #131416;
-    position: relative;
-}
-
-.blog .img-box {
-    width: 100%;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.blog .img-box img {
-    width: 100%;
-    transition: all 0.3s ease-in;
-}
-
-.blog .img-box img:hover {
-    transform: scale(1.2);
-}
-
-.blog h6 {
-    margin-top: 15px;
-    font-size: 18px;
-    line-height: normal;
-    cursor: pointer;
-}
-
-.blog p {
-    margin-top: 10px;
-}
-
-.blog button {
-    margin-top: 10px;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-
-.blog button a {
-    text-decoration: none;
-    font-size: 15px;
-    color: #878e99;
-}
-
-.blog button:hover a {
-    color: white;
-}
-
-.blog::before {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    font-size: 15px;
-    color: white;
-    background-color: var(--main-color);
-    padding: 5px;
-    z-index: 2;
-}
-
-.blog-1::before {
-    content: "14th Feb";
-}
-
-.blog-2::before {
-    content: "10th Aug";
-}
-
-.blog-3::before {
-    content: "15th Nov";
-}
 
 /* <================= Contact =================> */
 #contact {
