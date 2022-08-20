@@ -525,11 +525,11 @@ span {
 }
 
 .progress-bar .progress-line.js {
-    width: 80%;
+    width: 40%;
 }
 
 .progress-bar .progress-line.python {
-    width: 75%;
+    width: 40%;
 }
 
 .progress-bar .progress-line.django {
@@ -549,11 +549,11 @@ span {
 }
 
 .progress-bar .progress-line.js::after {
-    content: "80%";
+    content: "40%";
 }
 
 .progress-bar .progress-line.python::after {
-    content: "75%";
+    content: "40%";
 }
 
 .progress-bar .progress-line.django::after {
