@@ -94,10 +94,11 @@
             </div>
             <div class="text-wrapper" data-aos="fade-right" data-aos-duration="1200">
                 <h4>Laxmikant Saraswat</h4>
-                <h5>A Lead <span>Frontend Web Developer</span> based in <span>Bikaner</span></h5>
-                <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern
-                    websites, web services and online stores. My passion is to design digital user experiences through
-                    the bold interface and meaningful interactions.</p>
+                <h5>A <span>Frontend Web Developer</span> based in <span>Bikaner</span></h5>
+                <p><b> Design and develop services for customers of all sizes, specializing in creating stylish, modern
+                        websites, web services and online stores. My passion is to design digital user experiences
+                        through
+                        the bold interface and meaningful interactions.</b></p>
                 <div class="about-list">
 
                     <!-- List Item Start -->
@@ -554,76 +555,6 @@
         </div>
 
     </section>
-    <!-------------- Reviews Section -------------->
-    <section id="reviews">
-
-        <!-------------- Carousel -------------->
-        <div class="owl-carousel owl-theme">
-
-            <!-- Review Item Start -->
-            <div class="item" data-aos="fade-up">
-                <div class="img-box">
-                    <img src="Images/Review-img-1.jpg" alt="">
-                </div>
-                <div class="text-holder">
-                    <p class="details">
-                        I design and develop services for customers of all sizes, specializing in creating stylish,
-                        modern
-                        websites, web services and online stores.
-                    </p>
-                    <h6 class="name">Nancy Byers</h6>
-                    <div class="rating">
-                        <i class="fa-regular fa-star"></i>
-                        <span>5.0</span>
-                    </div>
-                </div>
-            </div>
-            <!-- Review Item End -->
-
-            <!-- Review Item Start -->
-            <div class="item" data-aos="fade-up">
-                <div class="img-box">
-                    <img src="Images/Review-img-2.jpg" alt="">
-                </div>
-                <div class="text-holder">
-                    <p class="details">
-                        I design and develop services for customers of all sizes, specializing in creating stylish,
-                        modern
-                        websites, web services and online stores.
-                    </p>
-                    <h6 class="name">John Doe</h6>
-                    <div class="rating">
-                        <i class="fa-regular fa-star"></i>
-                        <span>4.9</span>
-                    </div>
-                </div>
-            </div>
-            <!-- Review Item End -->
-
-            <!-- Review Item Start -->
-            <div class="item" data-aos="fade-up">
-                <div class="img-box">
-                    <img src="Images/Review-img-3.jpg" alt="">
-                </div>
-                <div class="text-holder">
-                    <p class="details">
-                        I design and develop services for customers of all sizes, specializing in creating stylish,
-                        modern
-                        websites, web services and online stores.
-                    </p>
-                    <h6 class="name">Emma Stone</h6>
-                    <div class="rating">
-                        <i class="fa-regular fa-star"></i>
-                        <span>4.7</span>
-                    </div>
-                </div>
-            </div>
-            <!-- Review Item End -->
-        </div>
-    </section>
-
-
-
 
     <!-------------- Contact Section -------------->
     <section id="contact">
@@ -635,7 +566,7 @@
         </div>
 
         <div class="container">
-            <form action="#" data-aos="fade-right" data-aos-duration="1200">
+            <form action="https://formsubmit.co/el/papobu" method="POST">
                 <div class="title">
                     <h4>Massage Me</h4>
                 </div>
@@ -645,7 +576,7 @@
                         <input type="text" placeholder="Name" required>
                     </div>
                     <div class="input-data">
-                        <input type="text" placeholder="Email" required>
+                        <input id="email" type="email" placeholder="Email" required>
                     </div>
                 </div>
                 <div class="input-data">
@@ -654,11 +585,29 @@
                 <div class="input-data">
                     <textarea name="Massage" placeholder="Massage" required></textarea>
                 </div>
-                <div class="form-row">
-                    <input type="submit" value="Send Your Massage" class="btn">
-                </div>
+                <button type="submit" class="btn btn-primary">send</button>
+                <!-- <div class="form-row">
+                    <input id="submit" type="submit" value="Send Your Massage" class="btn">
+                </div> -->
             </form>
+            <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+            <script>
+                function sendEmail() {
+                    Email.send({
+                        Host: "smtp.gmail.com",
+                        Username: "animessarswat008@gmail.com",
+                        Password: "",
+                        To: 'laxmikantsarswat007@gmail.com',
+                        From: document.getElementById("email").value,
+                        Subject: "New contact form Enquiry",
+                        Body: "And this is the body"
+                    }).then(
+                        message => alert(message)
+                    );
 
+                }
+
+            </script> -->
             <div class="contact-info" data-aos="fade-right" data-aos-duration="1200">
                 <div class="title">
                     <h4>Contact-info</h4>
@@ -757,3 +706,10 @@
 </body>
 
 </html>
+
+
+
+
+
+
+<!-- data-aos="fade-right" data-aos-duration="1200"  -->
