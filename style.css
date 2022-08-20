@@ -533,7 +533,7 @@ span {
 }
 
 .progress-bar .progress-line.django {
-    width: 65%;
+    width: 80%;
 }
 
 .progress-bar .progress-line.html::after {
@@ -557,7 +557,7 @@ span {
 }
 
 .progress-bar .progress-line.django::after {
-    content: "65%";
+    content: "80%";
 }
 
 
