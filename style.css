@@ -1077,3 +1077,19 @@ input[type="checkbox"]:checked~.hamburger-lines .line3 {
         margin-bottom: 10px;
     }
 }
+
+
+#contact-form {
+
+
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+
+    background-color: red;
+    border-radius: 30px;
+}
