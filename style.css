@@ -68,6 +68,8 @@ h5 {
 }
 
 p,
+
+
 span {
     font-size: 17px;
     color: var(--font-small-color);
@@ -748,6 +750,7 @@ span {
 }
 
 .owl-dot.active span {
+
     background-color: var(--main-color) !important;
 }
 
@@ -755,7 +758,14 @@ span {
 
 /* <================= Contact =================> */
 #contact {
-    background-color: var(--bg-color-1);
+    padding: 100px 0;
+    background-color: var(--bg-color-2);
+    background-image: url("Images/getin3.jpg");
+    background-repeat: no-repeat;
+    /* background-color: #cccccc; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #contact .animate-bar::before {
@@ -780,6 +790,11 @@ form .form-row {
 .form-row .input-data {
     width: 50%;
     display: block;
+}
+
+p {
+    color: white;
+    font-weight: bold;
 }
 
 .input-data input,
