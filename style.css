@@ -264,15 +264,15 @@ span {
 
 #home .social-icons {
     position: absolute;
-    bottom: 1rem;
+    bottom: 3rem;
     z-index: 2;
-    right: 5rem;
+    /* right: rem; */
 }
 
 #home .social-icons a {
     text-decoration: none;
-    width: 35px;
-    height: 35px;
+    width: 65px;
+    height: 65px;
     text-align: center;
     background-color: white;
     border-radius: 50%;
@@ -990,6 +990,7 @@ input[type="checkbox"]:checked~.hamburger-lines .line3 {
         width: 100%;
         text-align: center;
         right: 0;
+
     }
 
     #about .container .text-wrapper {
